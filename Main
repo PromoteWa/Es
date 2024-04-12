@@ -1,0 +1,8 @@
+// requirer discord.js 
+const Discord = require('discord.js'); 
+const Client = new Discord.Client()
+intents:7683
+Client.on('ready', () => {
+  console.log('Bot is ready!')
+}) 
+Client.login(`OTQ4MjI1NjY5ODc0MjE2OTYw.G7mBDf.PlsW89baVNZ60ZOh5UrEBcmB17qRLKaGwSt44s
